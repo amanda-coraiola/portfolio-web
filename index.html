@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Coraiola | Portfólio de Dados & Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho / Navegação -->
+    <header>
+        <div class="logo">
+            <span>&lt;AmandaCoraiola /&gt;</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Competências</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Secção Hero / Apresentação -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Olá, sou a <span class="highlight">Amanda Coraiola</span></h1>
+            <h2>Especialista em Dados, Analytics & Engenharia</h2>
+            <p>Transformo dados brutos em Data Apps interativos, soluções de inteligência e pipelines automatizados de alta performance.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">Ver Projetos <i class="fa-solid fa-arrow-down"></i></a>
+                <a href="https://github.com/amanda-coraiola" target="_blank" class="btn secondary-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção Sobre Mim -->
+    <section id="about" class="section">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-card">
+            <p>Profissional focada na construção de ecossistemas analíticos completos. Com experiência prática em soluções de varejo, trade marketing, automação com Visão Computacional e arquitetura de dados (ETL), entrego produtos de dados focados em gerar valor direto para o negócio.</p>
+        </div>
+    </section>
+
+    <!-- Secção Competências -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Tecnologias & Ferramentas</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+            <div class="skill-card"><i class="fa-solid fa-chart-line"></i><span>Streamlit</span></div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i><span>SQL & ETL</span></div>
+            <div class="skill-card"><i class="fa-solid fa-eye"></i><span>Visão Computacional</span></div>
+            <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git & GitHub</span></div>
+            <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML5 & CSS3</span></div>
+        </div>
+    </section>
+
+    <!-- Secção Projetos -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projetos em Destaque</h2>
+        
+        <!-- Filtros JS -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="analytics">Analytics</button>
+            <button class="filter-btn" data-filter="ai">Visão / IA</button>
+            <button class="filter-btn" data-filter="engineering">Engenharia</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <div class="project-card" data-category="analytics">
+                <div class="project-header">
+                    <i class="fa-solid fa-chart-pie project-icon"></i>
+                    <h3>Trade Analytics Streamlit</h3>
+                </div>
+                <p>Data App interativo para monitoramento de faturamento, metas, taxa de ruptura e performance comercial no setor de Varejo.</p>
+                <div class="tags">
+                    <span>Python</span><span>Streamlit</span><span>Pandas</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/amanda-coraiola/trade-analytics-streamlit" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                    <a href="https://trade-analytics-app-cyqzmhuqws89y8llgwyp5t.streamlit.app/" target="_blank" class="live-link"><i class="fa-solid fa-external-link"></i> Ver App</a>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-card" data-category="ai">
+                <div class="project-header">
+                    <i class="fa-solid fa-camera project-icon"></i>
+                    <h3>PDV Scan - Computer Vision</h3>
+                </div>
+                <p>Aplicação de Visão Computacional e OCR para auditoria automatizada de gôndolas, leitura de etiquetas e identificação de rupturas.</p>
+                <div class="tags">
+                    <span>Python</span><span>OpenCV/PIL</span><span>Streamlit</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/amanda-coraiola/pdv-scan-computer-vision" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                    <a href="https://pdv-scan-computer-vision-svgzvsqh6xh4vjqdbrp3cb.streamlit.app/" target="_blank" class="live-link"><i class="fa-solid fa-external-link"></i> Ver App</a>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="project-card" data-category="engineering">
+                <div class="project-header">
+                    <i class="fa-solid fa-diagram-project project-icon"></i>
+                    <h3>Retail ETL Pipeline</h3>
+                </div>
+                <p>Pipeline automatizado em Python para extração, limpeza, transformação e carga de dados brutos com modelagem Star Schema.</p>
+                <div class="tags">
+                    <span>Python</span><span>ETL</span><span>Data Warehouse</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/amanda-coraiola/retail-etl-pipeline-python" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contact">
+        <p>Desenvolvido com <i class="fa-solid fa-heart"></i> por <strong>Amanda Coraiola</strong></p>
+        <div class="social-links">
+            <a href="https://github.com/amanda-coraiola" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
