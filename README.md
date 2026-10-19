@@ -41,29 +41,4 @@ Este site foi projetado e desenvolvido para servir como a vitrine central das mi
 Acesse a versão ao vivo e interativa hospedada no GitHub Pages:
 👉 **[amanda-coraiola.github.io/portfolio-web](https://amanda-coraiola.github.io/portfolio-web/)**
 
----
-
-## 💻 Como Executar Localmente
-
-1. Clone o repositório:
-   git clone [https://github.com/amanda-coraiola/portfolio-web.git](https://github.com/amanda-coraiola/portfolio-web.git)
-
-   Acesse a pasta do projeto:
-
-cd portfolio-web
-Abra o arquivo index.html em qualquer navegador da sua escolha.
-
-Desenvolvido por Amanda Coraiola.
-
-
----
-
-### 📝 Passo a Passo no GitHub:
-
-1. Acesse o seu repositório do portfólio web no GitHub (`portfolio-web` / `portfólio-web`).
-2. Abra o arquivo **`README.md`** e clique no **ícone de lápis (Edit)**.
-3. Substitua todo o conteúdo pelo texto acima.
-4. Clique no botão azul **"Commit changes..."** para salvar.
-5. Em seguida, acesse o seu perfil principal no GitHub (`amanda-coraiola`) e fixo (**Pin**) este repositório também! 
-
-Com isso, você tem 4 repositórios completos e um site interativo funcionando perfeitamente! 🚀
+Desenvolvido por Amanda Coraiola!
